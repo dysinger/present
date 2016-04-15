@@ -1,0 +1,12 @@
+resolver: lts-5.12
+
+compiler: ghcjs-0.2.0.20160414_ghc-7.10.3
+compiler-check: match-exact
+setup-info:
+  ghcjs:
+    source:
+      ghcjs-0.2.0.20160414_ghc-7.10.3:
+        url: https://s3.amazonaws.com/ghcjs/ghcjs-0.2.0.20160414_ghc-7.10.3.tar.gz
+
+packages:
+- location: '.'
